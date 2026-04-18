@@ -71,3 +71,21 @@ Before running this project, ensure you have:
 ### 1. Initialize Terraform
 ```bash
 terraform init
+terraform validate
+terraform fmt
+terraform plan
+terraform apply
+
+SSH Access
+After deployment:
+ssh -i ~/.ssh/id_rsa azureuser@<public-ip>
+
+📤 Outputs
+
+Terraform provides:
+
+Public IP address
+VM name
+Resource Group
+VNet & Subnet details
+NIC ID
